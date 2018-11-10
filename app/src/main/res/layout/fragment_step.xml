@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fouomene.banking.app.fragment.StepFragment">
+
+    <!-- Master layout. -->
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="left"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/tendp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Ingredients : " />
+
+            <TextView
+                android:id="@+id/ingrediens"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="List of ingredients"
+                android:textStyle="bold"
+                android:layout_marginBottom="@dimen/tendp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Steps : " />
+
+            <android.support.v7.widget.RecyclerView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/recyclerViewSteps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:context="com.fouomene.banking.app.fragment.StepFragment"/>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

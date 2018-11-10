@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Banking</string>
+
+    <string name="check_network">Please check your network</string>
+    <string name="server_unavailable">Server is currently unavailable. Please try again later</string>
+    <string name="data_unavailable">Data unavailable</string>
+
+
+    <string name="pref_current_position__label" translatable="false">POSITION</string>
+    <string name="pref_current_position_key" translatable="false">POSITION</string>
+    <string name="pref_current_position_default" translatable="false">0</string>
+
+    <string name="pref_current_positionstep__label" translatable="false">POSITIONSTEP</string>
+    <string name="pref_current_positionstep_key" translatable="false">POSITIONSTEP</string>
+    <string name="pref_current_positionstep_default" translatable="false">0</string>
+
+    <string name="pref_recipe_name__label" translatable="false">RECIPE</string>
+    <string name="pref_recipe_name_key" translatable="false">RECIPE</string>
+    <string name="pref_recipe_name_default" translatable="false">RECIPE</string>
+
+    <string name="pref_ingredients__label" translatable="false">ingredient</string>
+    <string name="pref_ingredients_key" translatable="false">ingredient</string>
+    <string name="pref_ingredients_default" translatable="false">ingredient</string>
+
+    <string name="pref_step_description__label" translatable="false">STEP</string>
+    <string name="pref_step_description_key" translatable="false">STEP</string>
+    <string name="pref_step_description_default" translatable="false">STEP</string>
+    <string name="recipes">Recipes</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+</resources>
